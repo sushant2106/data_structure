@@ -23,6 +23,11 @@ public class Main {
   x.add("Ram");
   System.out.println(x);
   System.out.println(li.contains(11));
+  //Iteration 
+   ListIterator itr=li.listIterator();
+   while(itr.hasNext()){
+    System.out.println(itr.next());
+   }
  }
 
  public static void main(String[] args) {
