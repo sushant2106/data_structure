@@ -22,6 +22,7 @@ public class Main {
   x.add(12);
   x.add("Ram");
   System.out.println(x);
+  System.out.println(li.contains(11));
  }
 
  public static void main(String[] args) {
