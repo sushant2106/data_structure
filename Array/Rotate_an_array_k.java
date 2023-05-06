@@ -17,6 +17,20 @@ public class Main
 	
 	System.out.print(Arrays.toString(arr));
 		
+		/*
+			int arr[]={5,4,1,3,2};
+	int n=arr.length;
+
+    int arr2[]=new int[n];
+    int k=2;
+    for(int i=0;i<n;i++){
+        arr2[(i+k)%n]=arr[i];
+    }
+    arr2=arr;
+	
+	
+	System.out.print(Arrays.toString(arr));   */
+		
 		
 	}
 }
