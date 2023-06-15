@@ -11,11 +11,11 @@ public class Main
               return mid;
           }
           else if(arr[mid]>tar){
-              max2=Math.max(max2,mid);
+              max2=mid;
               h=mid-1;
           }
           else{
-              max=Math.max(max,mid);
+              max=mid;
               l=mid+1;
           }
       }
