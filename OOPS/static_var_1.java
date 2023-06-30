@@ -16,12 +16,14 @@ public class Main
 	  Mobile obj1=new Mobile();
 	  obj1.name="Apple";
 	  obj1.price="50k";
-	  obj1.model="13";
+	 // obj1.model="13";
+	 Mobile.model="13";
 	  
 	  Mobile obj2=new Mobile();
 	  obj2.name="Samsung";
 	  obj2.price="60k";
-	  obj2.model="galaxy";
+        // obj2.model="galaxy";
+	  Mobile.model="galaxy";
 	  
 	  obj1.show();
 	  obj2.show();
