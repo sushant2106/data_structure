@@ -9,6 +9,7 @@ class Student{
         marks=new int[3];
         System.out.println("Hii..");
     }
+	//shallow copy constructor
     Student(Student s1){// it is known as Copy constructor
         marks=new int[3];
         this.name=s1.name;
