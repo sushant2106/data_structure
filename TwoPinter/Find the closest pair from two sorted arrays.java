@@ -30,7 +30,7 @@ public class Main
         // }
      int l=0;
          int h=m-1;
-         while(l<n && m>=0){
+         while(l<n && h>=0){
              int dif=Math.abs(ar1[l]+ar2[h]-x);
              if(min>dif){
                  ans[0]=ar1[l];
