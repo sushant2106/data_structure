@@ -16,7 +16,7 @@ class B extends A{
         System.out.println("B..");
     }
     B(int a){
-        this();
+        this();//this will call the same class Constructor
         System.out.println("B.."+a);
     }
 }
