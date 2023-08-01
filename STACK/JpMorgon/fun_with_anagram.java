@@ -17,7 +17,6 @@ public class Main
     }
 	public static void main(String[] args) {
 	  String str[]={"code","doce","ecod","framer","frame"};
-	  Arrays.sort(str);
 	   Stack<String>st=new Stack<>();
 	   st.push(str[0]);
 	   for(int i=1;i<str.length;i++){
