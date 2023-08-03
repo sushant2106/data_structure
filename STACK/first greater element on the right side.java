@@ -10,7 +10,7 @@ public class Main
 		Stack<Integer>st=new Stack<>();
 		st.push(arr[n-1]);
 		for(int i=n-2;i>=0;i--){
-		    while(!st.isEmpty() && arr[i]>st.peek()){
+		    while(!st.isEmpty() && arr[i]>=st.peek()){
 		        st.pop();
 		    }
 		    ans[i]=st.isEmpty()?-1:st.peek();
