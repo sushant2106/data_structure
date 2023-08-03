@@ -17,7 +17,7 @@ public class Main
 	            j++;
 	        }
 	        else if(map.size()==k){
-	            length=Math.max(j-i+1,length);
+	            length=Math.max(j-i+1,length);//yaha j-i+1 store hoga kyo ki yaha repeation allow hai and wo prev ko le kar chalenge
 	            j++;
 	        }
 	       
