@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Main
 {
-	public static void main(String[] args) {
+	public static void main(String[] args) { //check discription
 	   int stock[]={ 10,4,5,90,120,80};
 	   int n=stock.length;
 	   int ans[]=new int[n];
