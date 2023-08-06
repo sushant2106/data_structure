@@ -13,7 +13,7 @@ public class Main
 		    int r=arr[i]+k;
 		    //index ka range aa rha hai  
 		    ans[l]+=1;
-		    ans[r]+=-1;
+		    ans[r+1]+=-1;
 		    i++;
 		}
 		int max=0;
