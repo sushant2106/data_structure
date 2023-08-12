@@ -31,7 +31,7 @@ class Queue{
         }
         int front=arr[0];
         System.out.println("Front of Queue:"+ front);
-        for(int i=1;i<rear;i++){
+        for(int i=1;i<=rear;i++){
             arr[i-1]=arr[i];
         }
         rear--;
