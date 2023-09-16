@@ -1,7 +1,9 @@
 import java.util.*;
 
 public class Main
-{
+{   
+
+	//price<=todays price aaj se kitne aise share thee jo isse pehle the ya equal tha
 	public static void main(String[] args) { //check discription
 	   int stock[]={100,80,60,70,60,85,100};
 	   int n=stock.length;
