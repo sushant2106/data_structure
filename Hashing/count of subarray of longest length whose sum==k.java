@@ -32,7 +32,7 @@ public class Main{
             }
             
                 map.put(sum,i);
-    
+     //longest mai sum ko overide nahi krne denge 
         }
         
         System.out .println(solve(arr,minlen,k));
