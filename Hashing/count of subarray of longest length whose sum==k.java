@@ -30,9 +30,9 @@ public class Main{
             if(map.containsKey(sum-k)){
                 minlen=Math.min(minlen,i-map.get(sum-k));
             }
-            if(!map.containsKey(sum)){
+            
                 map.put(sum,i);
-            }
+    
         }
         
         System.out .println(solve(arr,minlen,k));
